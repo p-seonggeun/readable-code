@@ -47,4 +47,7 @@ public class StudyCafePass {
         return "";
     }
 
+    public int getDiscountPrice() {
+        return (int) (this.price * this.discountRate);
+    }
 }

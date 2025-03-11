@@ -11,5 +11,4 @@ public enum StudyCafePassType {
     StudyCafePassType(String description) {
         this.description = description;
     }
-
 }
